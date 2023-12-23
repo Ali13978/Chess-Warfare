@@ -1,0 +1,11 @@
+# Exported from 3D Builder
+
+newmtl glassfogged_0
+Kd 0.752212 0.016642 0.134792
+
+newmtl Mat_0
+Kd 1.000000 1.000000 1.000000
+map_Kd white marble.jpg
+
+newmtl glass_0
+Kd 0.831858 0.761923 0.761923

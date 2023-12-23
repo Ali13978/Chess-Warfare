@@ -1,0 +1,9 @@
+lastUpgrade=01006
+proj.pluginVersion=0.10.06
+proj.AppId=771003453854
+and.BundleId=com.FalcoLabs.ChessWarfare
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3cresources%3e%0d%0a+%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e771003453854%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.FalcoLabs.ChessWarfare%3c%2fstring%3e%0d%0a+%3c%2fresources%3e
+and.ClientId=771003453854-1f2qe79urn16uh5r63vevh9dp2o5iun9.apps.googleusercontent.com
+android.SetupDone=true

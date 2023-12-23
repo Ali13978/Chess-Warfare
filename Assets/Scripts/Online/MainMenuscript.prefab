@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4415269367428638445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4415269367428638447}
+  - component: {fileID: 4415269367428638444}
+  - component: {fileID: 4415269367428638446}
+  m_Layer: 0
+  m_Name: MainMenuscript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4415269367428638447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415269367428638445}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.012758538, y: -0.14039677, z: 387.40625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4415269367428638444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415269367428638445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de5cc4988007934e8f94c44d8cdfd5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainPanel: {fileID: 0}
+  ChessWarfareAuthenticationPanel: {fileID: 0}
+  playerName:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  settingsText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  settingsButtonText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  coinsText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  LevelText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playerImage:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ProfileProgress: {fileID: 0}
+  DefaultAvatar: {fileID: 21300000, guid: f857bfc8b18805e47a6b39dbc82e5524, type: 3}
+  SettingsButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  EmpireButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &4415269367428638446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415269367428638445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3a93301297e8442afa51b804f0e556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BasicAvatars:
+  - {fileID: 21300000, guid: d3c91120d3d7bb44eb0339ae8e4c250b, type: 3}
+  - {fileID: 21300000, guid: 67e7f0fcd442e7646aa2f4304f74c357, type: 3}
+  - {fileID: 21300000, guid: 96fa01bb6a5538c47aef5724296bc81a, type: 3}
+  - {fileID: 21300000, guid: 2fb9b4d3525d4814d899682e5cd1eff0, type: 3}
+  - {fileID: 21300000, guid: 9ad2ac3c2b627a34bb117bd536baef15, type: 3}
+  - {fileID: 21300000, guid: a0933c10dcff00746a5ec784abf62d94, type: 3}
+  - {fileID: 21300000, guid: bf1b2adce1bd9db46ae696d8b263f6b6, type: 3}
+  - {fileID: 21300000, guid: cbb83de84ee20dd4494c4843e7f4c172, type: 3}
+  PremiumAvatars:
+  - {fileID: 21300000, guid: 2d9670b0e3ee30340bc69fb4aee04559, type: 3}
+  - {fileID: 21300000, guid: dc9df5444cc4ec24088802b35a193c3a, type: 3}
+  - {fileID: 21300000, guid: 045e794fbdaf82b46b3cb4864eaf2745, type: 3}
+  - {fileID: 21300000, guid: ce4412b98a8ebce4481edf6c2be2f6c0, type: 3}
+  - {fileID: 21300000, guid: f8df21363de5fb644baddebabc243ab7, type: 3}
+  - {fileID: 21300000, guid: 5e4bcd3e4e15e8847b748fc9707acca4, type: 3}
+  - {fileID: 21300000, guid: d3f6b54d8f341ac47896c2c9d1632929, type: 3}
+  - {fileID: 21300000, guid: 0218dd511e6002d45a6fa0d54fb63813, type: 3}
+  - {fileID: 21300000, guid: da112a5e520111e4aa3d9d77249cb688, type: 3}
+  - {fileID: 21300000, guid: 0d37446d6861cde4e992fb1a256d4593, type: 3}
+  - {fileID: 21300000, guid: c7b83054d6866be45960d1f6d8fa4597, type: 3}
+  - {fileID: 21300000, guid: 2cd236ad220960b4db85213f23b31381, type: 3}
+  - {fileID: 21300000, guid: 39b6a3c558073414ea141ed4788cede5, type: 3}
+  - {fileID: 21300000, guid: caacaa4ca91b40946a0ff2bd084357ca, type: 3}
+  - {fileID: 21300000, guid: 64e3c786a3a36a6498369e8930ef02c9, type: 3}
+  - {fileID: 21300000, guid: d2c8a19e4c4168c4680dcf90a261219e, type: 3}
+  - {fileID: 21300000, guid: 7ec3e3c9eb3d77c4cbd0435397ed00e2, type: 3}
+  - {fileID: 21300000, guid: e503e5f55f0743a4f9ccf5d126b82cfa, type: 3}
+  - {fileID: 21300000, guid: ab82b4ea4bd10e043b65a479eca546bc, type: 3}
+  - {fileID: 21300000, guid: 0814b46a5ce70ba4eb37f8d9d4367a88, type: 3}
+  - {fileID: 21300000, guid: f469f239d6d79be499cf5dab2c3a766c, type: 3}
+  - {fileID: 21300000, guid: 6af042d80d29324478ecad041610484d, type: 3}
+  - {fileID: 21300000, guid: 7f6515d4f2093344eac560ac67ee345a, type: 3}
+  - {fileID: 21300000, guid: 5eb0ff42d7869ed4f8d311e39e00bf0b, type: 3}
+  - {fileID: 21300000, guid: 29dc153eed65fb24f80ffe6b1f8c79dd, type: 3}
+  - {fileID: 21300000, guid: 51828429ae877de4ead193d05e381958, type: 3}
+  - {fileID: 21300000, guid: 916b52849127a1544bec9299e3d65195, type: 3}
+  - {fileID: 21300000, guid: 4a0aa981d25584a40b40737df08d547d, type: 3}
+  - {fileID: 21300000, guid: b5bcd7359491c754e8fe4e01a8ad2366, type: 3}
+  - {fileID: 21300000, guid: fe77a26b54a63a5488e4afeee049ae16, type: 3}
+  - {fileID: 21300000, guid: 0a10d89ac8a045c4aaf122000ec201cc, type: 3}
+  - {fileID: 21300000, guid: 3da63b16423b57c40b9f1a0b45565eba, type: 3}
+  - {fileID: 21300000, guid: 65061dd28549ec44488c4373a8485fe5, type: 3}
+  - {fileID: 21300000, guid: ed1c02b8653654a4983cce21f5e2e776, type: 3}
+  - {fileID: 21300000, guid: f3e9e91254cefb14f80fb2da9993a7b7, type: 3}
+  - {fileID: 21300000, guid: 273cccf3c9434d148b1d8603d93452e8, type: 3}

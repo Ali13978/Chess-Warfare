@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "771003453854-teesgnegsmt3li6hs799se3ntngjaldv.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbGSJaze1XwF22GNOih32vYHn_XTZk1N4"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:771003453854:ios:b1be903a0b544a385c468f", 
+        "android_client_info": {
+          "package_name": "com.FalcoLabs.ChessWarfare"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "chess-warfare.appspot.com", 
+    "project_id": "chess-warfare", 
+    "firebase_url": "https://chess-warfare.firebaseio.com", 
+    "project_number": "771003453854"
+  }
+}

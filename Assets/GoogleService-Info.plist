@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>771003453854-teesgnegsmt3li6hs799se3ntngjaldv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.771003453854-teesgnegsmt3li6hs799se3ntngjaldv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>771003453854-dla5rma6fcperl48hrpu5ne4rf93q6va.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBbGSJaze1XwF22GNOih32vYHn_XTZk1N4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>771003453854</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.FalcoLabs.ChessWarfare</string>
+	<key>PROJECT_ID</key>
+	<string>chess-warfare</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chess-warfare.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:771003453854:ios:b1be903a0b544a385c468f</string>
+	<key>DATABASE_URL</key>
+	<string>https://chess-warfare.firebaseio.com</string>
+</dict>
+</plist>
