@@ -613,7 +613,7 @@ public class DeepClass : MonoBehaviour
 
             refresh_token = refresh_token.ToString().Trim((trim_char_arry));
             PlayerPrefs.SetString("r_token", refresh_token);
-            Debug.Log("refresh_token" + PlayerPrefs.GetString("r_token").ToString());
+            Debug.Log("refresh_token: " + PlayerPrefs.GetString("r_token").ToString());
 
             string accrss_token = obj.GetField("access_token").ToString();
             accrss_token = accrss_token.ToString().Trim((trim_char_arry));

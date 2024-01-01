@@ -35,7 +35,15 @@ public class FacebookManager : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
         if (!FB.IsInitialized)
         {
             FB.Init(SetInit, onHidenUnity);

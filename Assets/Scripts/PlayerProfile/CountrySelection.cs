@@ -13,8 +13,17 @@ public class CountrySelection : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
-        DontDestroyOnLoad(this.gameObject);
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        PlayerPrefs.DeleteAll();
     }
 
     public List<string> GetCountryCodeList()

@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: PhotonServerSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdRealtime: b5b6791c-cb70-4b8c-bedd-b8b55f94dfa3
+    AppIdRealtime: 12be80cd-5264-4030-91db-c8a9c5cac065
     AppIdChat: 
     AppIdVoice: 
     AppVersion: 
     UseNameServer: 1
-    FixedRegion: eu
+    FixedRegion: 
     Server: 
     Port: 0
     Protocol: 0
@@ -35,6 +35,7 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - MovePiece
+  - OtherPlayerCastle
   - PieceClicked
   - ReceiveMessage
   - RespawnSpaceship
@@ -42,6 +43,5 @@ MonoBehaviour:
   - UndoNetwork3
   - UndoNetwork4
   - UndoNetwork5
-  - OtherPlayerCastle
   DisableAutoOpenWizard: 1
-  ShowSettings: 1
+  ShowSettings: 0

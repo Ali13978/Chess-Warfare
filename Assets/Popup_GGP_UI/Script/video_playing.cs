@@ -43,7 +43,6 @@ public class video_playing : MonoBehaviour {
     {
         Debug.Log("start");
         yield return new WaitForSeconds(5f);
-        DeepClass.inst.loginPanel.SetActive(true);
         gameObject.SetActive(false);
     }
 
